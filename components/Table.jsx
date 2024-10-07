@@ -16,7 +16,7 @@ export default function Table({ selection, moonData, marsData }) {
     
     return (
         <div className="">
-            {selection != "Choose an option" &&<div className="flex justify-center">
+            {selection != "Choose an option" && data &&<div className="flex justify-center">
                 <div className="relative overflow-x-auto">
                     <table className="w-full min-w-[900px] text-sm text-left rtl:text-right text-gray-500 text-gray-400">
                         <thead className="text-xs text-gray-700 uppercase bg-gray-700 text-gray-400">
