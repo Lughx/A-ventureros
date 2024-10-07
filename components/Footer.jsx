@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <section className="py-3 bg-gray-950 text-neutral-100 flex justify-center">
-            <a href="https://github.com/Lughx/A-ventureros">
+            <a target="blank" href="https://github.com/Lughx/A-ventureros">
                 <div className="flex">
                     <div>
                         View the code 

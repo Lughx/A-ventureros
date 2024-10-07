@@ -3,7 +3,7 @@ export default function Navbar(){
     return (
         <nav className="sticky top-0 z-40">
             <div className="flex bg-gray-950 lg:justify-around md:justify-around justify-center ">
-                <a className="flex items-center" href="https://github.com/alxxjandro/spaceApps" target="blank">
+                <a className="flex items-center" href="https://github.com/Lughx/A-ventureros" target="blank">
                     <Image src="/boilerPlateLogo.png" width={400} height={400} className="w-12 hover:scale-105 transition duration-300 ease-in-out pt-4 md:pt-0 bg:pt-0"  />
                 </a>
                 <div className=" hidden lg:flex md:flex items-center min-h-[10vh] gap-x-2">
