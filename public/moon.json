@@ -25,7 +25,7 @@
     },
     {
         "date": "1974-12-12",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S16_GradeA",
         "num_cambios": 0,
@@ -81,7 +81,7 @@
     },
     {
         "date": "1975-03-26",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S16_GradeA",
         "num_cambios": 0,
@@ -121,7 +121,7 @@
     },
     {
         "date": "1974-05-09",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
@@ -153,7 +153,7 @@
     },
     {
         "date": "1970-01-09",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
@@ -185,7 +185,7 @@
     },
     {
         "date": "1971-05-22",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
@@ -265,7 +265,7 @@
     },
     {
         "date": "1972-05-19",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
@@ -321,7 +321,7 @@
     },
     {
         "date": "1973-10-10",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
@@ -353,7 +353,7 @@
     },
     {
         "date": "1972-12-15",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
@@ -401,7 +401,7 @@
     },
     {
         "date": "1972-01-26",
-        "type": "impact_mq",
+        "type": "deep_mq",
         "seconds": "73500",
         "group": "S12_GradeB",
         "num_cambios": 0,
