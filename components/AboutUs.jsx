@@ -19,7 +19,7 @@ const data = [
     },
     {
         image: "/Myriam.jpeg",
-        name: "Myriam"
+        name: "Myriam Muruato"
     },
 ]
 
