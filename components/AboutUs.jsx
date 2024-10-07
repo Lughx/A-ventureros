@@ -35,13 +35,15 @@ export default function AboutUs() {
                         We are A-Ventureros , a team of engineers driven by our passion for space and technology. Our mission is to create more efficient and dynamic solutions, continuously pushing the boundaries of innovation and contributing to the advancement of science.
                     </div>
                 </div>
-                <div className="grid md:grid-cols-5 lg:grid-cols-5 gap-6">
+                <div className="grid xsm:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-6">
                     {data.map(member => (
-                        <div className="text-center" key={member.name}>
-                            <div>
-                                <Image className="object-cover border border-2 rounded-full h-32 w-32 " src={member.image} width={300} height={300} />
+                        <div className="text-center flex justify-center" key={member.name}>
+                            <div className="">
+                                <div>
+                                    <Image className="object-cover border border-2 rounded-full h-32 w-32 " src={member.image} width={300} height={300} />
+                                </div>
+                                <div className="mt-2">{member.name}</div>
                             </div>
-                            <div className="mt-2">{member.name}</div>
                         </div>
                     ))}
                 </div>
