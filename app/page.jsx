@@ -9,8 +9,8 @@ export default async function Home() {
   const marsData = JSON.parse(marsFile);
 
   return (
-    <div>
+    <main>
       <Everthing moonData={moonData} marsData={marsData}/>
-    </div>
+    </main>
   );
 }

@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Navbar(){
     return (
-        <div className="sticky top-0 z-40">
+        <nav className="sticky top-0 z-40">
             <div className="flex bg-gray-950 lg:justify-around md:justify-around justify-center ">
                 <a className="flex items-center" href="https://github.com/alxxjandro/spaceApps" target="blank">
                     <Image src="/boilerPlateLogo.png" width={400} height={400} className="w-12 hover:scale-105 transition duration-300 ease-in-out pt-4 md:pt-0 bg:pt-0"  />
@@ -17,7 +17,7 @@ export default function Navbar(){
                     <button className="bg-slate-950 px-4 py-1 rounded-lg text-white text-md font-medium hover:bg-slate-600 hover:text-gray-200 hover:scale-105 transition duration-300 ease-in-out active:bg-slate-800 active:scale-95">About Us</button>
                     <button className="bg-slate-950 px-4 py-1 rounded-lg text-white text-md font-medium hover:bg-slate-600 hover:text-gray-200 hover:scale-105 transition duration-300 ease-in-out active:bg-slate-800 active:scale-95">Space Apps</button>
             </div>
-        </div>
+        </nav>
 
     )
 }
